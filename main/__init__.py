@@ -12,7 +12,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # variables
-API_ID = config("14463612", default=None, cast=int)
+API_ID = config(14463612, default=None, cast=int)
 API_HASH = config("814bb504e6bfed51001693a8e1ae59da", default=None)
 BOT_TOKEN = config("5635031675:AAErZp0Hkk2eu_Z8AEfJZOleBuJilTVrVVg", default=None)
 SESSION = config("BQDDhYxK91XCEBwseT0vbkqwTF1AeOoNxB_VR80roF4HLEN7K-kDrBMSxOEVSkOAZfpRwXXEVMiNooZMdLvlX61atfMFahh5IFG8o3Z8KZzaLbYuxLnu7d2Qk4SVhuWonjQhghRuRc9zF-wgNIj7Jf6_dkVBdoEV_GwXQHdETECIvIt3gsik0odr4jnF9yVNXy1LuZ2yLE9CWlzghGvAILcQ-Le8Ppex0An2kB7kIn7HDAi5RKxfI8uRjOaqN3tRHeNL0RSpN7ZUk_PUZQF9DETHpdzmD8wfKcnAZ6GfJ0ey2gEECsiMNafrcmLqAobY-RHxieZHJxHekNU9rzDXO28fNpAVpQA", default=None)
