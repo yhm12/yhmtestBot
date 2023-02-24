@@ -14,9 +14,9 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 # variables
 API_ID = config(14463612, default=None, cast=int)
 API_HASH = config("814bb504e6bfed51001693a8e1ae59da", default=None)
-BOT_TOKEN = config("5635031675:AAErZp0Hkk2eu_Z8AEfJZOleBuJilTVrVVg", default=None)
-SESSION = config("BQDDhYxK91XCEBwseT0vbkqwTF1AeOoNxB_VR80roF4HLEN7K-kDrBMSxOEVSkOAZfpRwXXEVMiNooZMdLvlX61atfMFahh5IFG8o3Z8KZzaLbYuxLnu7d2Qk4SVhuWonjQhghRuRc9zF-wgNIj7Jf6_dkVBdoEV_GwXQHdETECIvIt3gsik0odr4jnF9yVNXy1LuZ2yLE9CWlzghGvAILcQ-Le8Ppex0An2kB7kIn7HDAi5RKxfI8uRjOaqN3tRHeNL0RSpN7ZUk_PUZQF9DETHpdzmD8wfKcnAZ6GfJ0ey2gEECsiMNafrcmLqAobY-RHxieZHJxHekNU9rzDXO28fNpAVpQA", default=None)
-FORCESUB = config("Spotify/Netflix/HBO", default=None)
+BOT_TOKEN = config("6093536506:AAHzt_T7dsFWNg5Frr8Ikurj7RDJJ-Gk79Q", default=None)
+SESSION = config("BQBfWYDhUtZItSoTPyWQsTaHOLWWFA8M0A3q9Wxpv4LzE5dHf51JQrveNV0LXhBC8xC4Z63U309t8tdimZ4zvLXWVpe9__8j3pawnPTp_MeAw9Ch9mEKIL-FHpJ06MakXZaO0_ufswccs2RXuS-TbCxMV0Ub21hoMw7QTprXxkquQF3YbsKty5rRgQhzd0mQflCv7KiHwiP5334Uz8sD2w0Z1kMV44EMHCICU89opsX8K9Z4cR6qM0GplrxuHjAiuQOGHLJ_KctXdu4MYRUEyeXvymFUIMXnt6_qQS9lkLoOkPbpJ2Tsc6tVqJziC7IBURGBdL6hQENjdi0A1RPM0GK9NpAVpQA", default=None)
+FORCESUB = config("MDS1242", default=None)
 AUTH = config("915412389", default=None, cast=int)
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
